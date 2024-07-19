@@ -1,0 +1,22 @@
+.main{
+    margin: 0%;
+}
+.innav{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+    /* color:white; */
+    background-color: rgb(7, 148, 94);
+}
+.innav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    width:390px;
+    /* word-spacing:15px; */
+    row-gap:5px;
+    color: white;
+}

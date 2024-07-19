@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap stylesheet");
+body{
+    font-family:'poppins',sans-serif;
+}
+.container{
+    position: relative;
+    top:30px;
+    /* min-height:100vh; */
+    background:#009970;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.container form{
+    margin:25px;
+    width:320px;
+    height:500px;
+     display: flex;
+    justify-content: center;
+    /* box-shadow: 20px 20px 50px rgba(2, 93, 41, 0.5); */
+    border-radius:15px;
+    background:rgba(255,255,255,0.1);
+    /* backdrop-filter: blur(10px); */
+    flex-wrap: wrap;
+
+}
+.container form h2{
+    color: #fff;
+    font-weight:500;
+    margin-top:20px;
+    text-align: center;
+}
+.container form input{
+    width:250px;
+    height:40px;
+    padding-left:5px;
+    outline:none;
+    border:none;
+    font-size:15px;
+    margin-bottom:10px;
+    background: none;
+    border-bottom: 2px solid #fff;
+}
+.container form input::placeholder{
+    color: #fff;
+}
+.container form #lastname{
+    margin-left:20px;
+}
+.container form h4{
+    color: #fff;
+    font-weight: 300;
+    width:600px;
+    margin-top:20px;
+}
+.container form textarea{
+    background:none;
+    border:none;
+    border-bottom:2px solid #fff;
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    padding:10px;
+    outline:none;
+    min-width:200px;
+    max-width:600px;
+    min-height:80px;
+    max-height:80px;
+
+
+}
+textarea::-webkit-scrollbar{
+    width: 1em;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: rgba(194,194,194,0.713);
+}
+ .container form #button{
+    border: none;
+    background:#fff;
+    border-radius:5px;
+    font-weight: 600;
+    font-size:20px;
+    color: hsl(0, 0%, 20%);
+    width:100px;
+    margin-right:30px;
+    margin-left:25px;
+    transition:0.3s;
+} 
+.container form #button:hover{
+    opacity:0.7;
+}
+h4{
+    text-align: center;
+}
+.cont,p,h3{
+    position:relative;
+    top:15px;
+}
+h3{
+    text-align: center;
+    /* margin:10px; */
+}
+aside{
+   margin:15px;
+    text-align:justify;
+}
+.phnlogo{
+    opacity:0.9;
+}
+/* info box */
+.contact-info{
+    position: relative;
+    top:50px;
+    background:#009970;
+    /* color: white; */
+    margin:30px;
+    
+
+}
+.contact-info h3{
+    color: white;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+}
+
+.contact-info .infobox{
+    /* display: flex; */
+    /* align-items: center; */
+    margin:15px;
+    /* padding:20px; */
+    /* display: inline; */
+}
+.contact-info .infobox div span{
+    min-width:40px;
+    height:40px;
+    color: rgb(234, 163, 8);
+    background-color:#03000396;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border-radius:50px; */
+    font-size:1.5em;
+    margin-right:15px;
+
+
+}
+.contact-info .infobox div p{
+    font-size:1.1em;
+    color: #fff;
+    position: relative;
+    margin-top:10px;
+}
+.contact-info .infobox div a{
+    color: #fff;
+    text-decoration: none;
+    font-size:1.1em;
+}
+.sci{
+    margin-top:20px;
+    display: flex;
+    height:50px;
+}
+.sci li{
+    list-style:none;
+    margin-right:25px;
+}
+.sci li a{
+    color: #ffff;
+    font-size:3em;
+}
+.map{
+    padding:0;
+    margin:10px 0px 10px 0px;
+
+}
+iframe{
+    display: flex;
+    justify-content: center;
+
+    margin:10px auto;
+    width:50vw;
+    height:60vh;
+}
+.infobox p{
+    position: relative; 
+     bottom:10px;
+}
+
+
+
+
+
+
+
+

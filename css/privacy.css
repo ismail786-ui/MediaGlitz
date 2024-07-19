@@ -1,0 +1,15 @@
+.privacy{
+    margin:24px;
+    padding:8px;
+    text-align: justify;
+}
+p{
+    opacity:0.8;
+    font-weight: 600;
+}
+h2{
+    position: relative;
+    bottom:10px;
+    text-align: center;
+    text-decoration: underline;
+}
